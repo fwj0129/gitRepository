@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<h1> 三列布局,左右定宽,中间自适应</h1>
+<h2>第一种方法:左边左浮动,右边右浮动,中间 margin-left,margin-right, 把右边的div提到中间div前</h2>
+<div class="parents">
+    <div class="left1">left</div>
+    <div class="right1">right</div>
+    <div class="mid1">mid</div>
+
+</div>
+<h2>第二种方法:左边左浮动,右边右浮动,中间display:table-cell,width:2000px, 把右边的div提到中间div前</h2>
+<div class="parents2">
+    <div class="left2">left</div>
+    <div class="right2">right</div>
+    <div class="mid2"><div class="midcon">midmid</div></div>
+</div>
+<h3>第三种方法:flex布局,父级设为flex;子级flex-grow:1</h3>
+<div class="parents3">
+    <div class="left3">left</div>
+    <div class="mid3">mid</div>
+    <div class="right3">right</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+/*第一种*/
+.left1{
+    float: left;
+    width: 200px;
+    height:100px;
+    background-color: red;
+}
+.mid1{
+    height: 100px;
+    border: solid 2px black;
+    margin:0 250px;
+    background-color: green;
+}
+.right1{
+    width: 200px;
+    height: 100px;
+    float: right;
+    background-color: red;
+}
+/*第二种*/
+.left2{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.right2{
+    float: right;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.mid2{
+    display: table-cell;
+    *display:inline-block;
+    width: 2000px;
+    height:200px ;
+    *width:auto;
+    background-color: green;
+}
+.midcon{
+    margin: 0 50px;
+    height: 100%;
+    background-color: white;
+    border: solid 2px black;
+}
+.parents3{
+    display: flex;
+}
+.left3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.right3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.mid3{
+    flex-grow: 1;
+    height: 200px;
+    margin:0 50px;
+    background-color: green;
+}

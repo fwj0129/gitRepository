@@ -1,0 +1,34 @@
+/*body{*/
+    /*width: 100%;*/
+/*}*/
+/*/!*图片居中*!/*/
+/*.content{*/
+    /*width:800px;*/
+    /*height: 500px;*/
+    /*margin: 0 auto;*/
+    /*background-color: red;*/
+/*}*/
+/*.imgDiv{*/
+    /*width:800px;*/
+    /*height: 500px;*/
+    /*display: table-cell;*/
+    /*vertical-align:middle;*/
+    /*text-align: center;*/
+/*}*/
+/*img{*/
+   /*text-align: center;*/
+/*}*/
+.box{
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    background-color:black;
+}
+.items{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.items1{
+    flex-grow: 1;
+}
